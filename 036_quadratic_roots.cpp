@@ -27,12 +27,12 @@ int main(){
        cout << "Root 1 = " << root1 << endl;
        cout << "Root 2 = " << root2 << endl;
  }
- else if(discriminant == 0){
+ else if(discriminant == 0){                                   //One real root
       double root = (-b / (2 * a));
       
       cout << "Root = " << root << endl;
  }
- else{
+ else{                                                         //Two complex roots
       double real = (-b / (2 * a));
       double imaginary = (sqrt(abs(discriminant))) / (2 * a);
       
