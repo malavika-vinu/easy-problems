@@ -8,8 +8,7 @@ int main() {
     cout << "Enter a number: ";
     cin >> number;
 
-    // Loop until the number becomes 0
-    while (number > 0) {
+    while (number > 0) {         // Loop until the number becomes 0
         remainder = number % 10; // Get the last digit
         sum += remainder;        // Add the last digit to the sum
         number /= 10;            // Remove the last digit from the number
@@ -20,3 +19,4 @@ int main() {
     return 0;
 
 }
+
