@@ -1,11 +1,12 @@
 //Program to calculate sum of digits of a number
 #include <iostream>
+using namespace std;
 
 int main() {
     int number, sum = 0, remainder;
 
-    std::cout << "Enter a number: ";
-    std::cin >> number;
+    cout << "Enter a number: ";
+    cin >> number;
 
     // Loop until the number becomes 0
     while (number > 0) {
@@ -14,7 +15,8 @@ int main() {
         number /= 10;            // Remove the last digit from the number
     }
 
-    std::cout << "Sum of digits: " << sum << std::endl;
+    cout << "Sum of digits: " << sum << endl;
 
     return 0;
+
 }
