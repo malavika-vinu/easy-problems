@@ -1,5 +1,5 @@
 //Program to check if number is Armstrong number (sum of cubes of digits = number)
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main ()
@@ -14,11 +14,12 @@ int main ()
         temp = temp / 10;          //remove last digit     
     }
     if (sum == num){
-        cout << "\n" << num << " is an Armstrong number." << endl;
+        cout << num << " is an Armstrong number." << endl;
     }
     else{
-        cout << "\n" << num << " is not an Armstrong number." << endl;
+        cout << num << " is not an Armstrong number." << endl;
     }
     
  return 0;
 }
+
