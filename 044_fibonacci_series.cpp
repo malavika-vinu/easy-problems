@@ -23,14 +23,15 @@ int main() {
     while (next <= num) {
         next = first + second;
         if (next > num) {
-            break; // Stop if the next term exceeds the limit 'n'
+            break;              // Stop if 'next' is greater than 'num'
         }
         cout << next << endl;
-        first = second;         //Assign next two adjacent numbers to calculate the next number
+        first = second;         //Assign the next two adjacent numbers as 'first' and 'second' to calculate the next number
         second = next;
     }
 
     
 
     return 0;
+
 }
