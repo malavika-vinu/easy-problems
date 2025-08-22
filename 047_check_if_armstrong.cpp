@@ -1,6 +1,7 @@
 //Program to check if number is Armstrong number (sum of cubes of digits = number)
 #include<iostream>
 using namespace std;
+
 int main ()
 {
     int num, temp, rem, sum = 0;
@@ -20,5 +21,4 @@ int main ()
     }
     
  return 0;
- 
 }
