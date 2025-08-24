@@ -3,14 +3,15 @@
 #include <string.h>
 using namespace std;
 
+
+ 
+int main(){
+
  char word[50]="programming";
  int len = strlen(word);                           //Calculates length of string
  int i, temp;
 
  cout << "Before reverse : " << word << endl;
- 
-int main(){
-
  
  for(i = 0;i < len/2;i++){                  //Swaps first and last letters and continues to swap till string is reversed
         temp = word[i];
